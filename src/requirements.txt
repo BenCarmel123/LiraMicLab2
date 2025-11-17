@@ -1,16 +1,16 @@
 # Core ML packages
 torch==2.2.2
 torchvision==0.17.2
-numpy>=2.0.2
+numpy<2.0.0 # Ensure compatibility with other facenet-pytorch dependencies  
 pillow>=10.0.0
 
 # Face detection
 facenet-pytorch>=2.6.0
-opencv-python>=4.12.0.88
+opencv-python<4.9.0
 
 # Emotion recognition
 hsemotion>=0.2.5
 
 # Utilities
-kaggle>=1.7.4.5
+kaggle>=1.5.12
 python-dotenv>=1.2.1

@@ -1,6 +1,6 @@
 .env/
 .venv/
 .dataset
-# Ignore everything in dataset/ except specified files
-/dataset/*
-!/dataset/modify.py
+# Ignore everything in src/dataset/ except specified files
+/src/dataset/*
+!/src/dataset/modify.py
