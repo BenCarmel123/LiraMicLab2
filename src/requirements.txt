@@ -14,3 +14,4 @@ hsemotion>=0.2.5
 # Utilities
 kaggle>=1.5.12
 python-dotenv>=1.2.1
+mediapipe>=0.9.1
