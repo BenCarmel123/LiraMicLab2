@@ -1,4 +1,4 @@
-from kaggleSetup import api
+from kaggle import api
 
 dataset_path = 'chenrich/kdef-database'
 download_path = '../dataset/orig_kdef/'

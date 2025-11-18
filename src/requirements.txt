@@ -3,6 +3,7 @@ torch==2.2.2
 torchvision==0.17.2
 numpy<2.0.0 # Ensure compatibility with other facenet-pytorch dependencies  
 pillow>=10.0.0
+pandas>=2.3.3
 
 # Face detection
 facenet-pytorch>=2.6.0
@@ -15,3 +16,7 @@ hsemotion>=0.2.5
 kaggle>=1.5.12
 python-dotenv>=1.2.1
 mediapipe>=0.9.1
+timm==0.6.13
+tqdm>=4.66.1
+pyarrow>=21.0.0
+matplotlib>=1.15.0
