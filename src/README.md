@@ -1,0 +1,1 @@
+This project extracts facial-expression embeddings from the KDEF dataset using the HSEmotion ENet-B0 model, stores them in efficient Parquet files, computes emotion prototypes (mean embeddings), generates cosine similarity matrices, and produces heatmap PDFs for analysis.
