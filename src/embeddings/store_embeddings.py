@@ -1,7 +1,12 @@
+"""Compute and save face embeddings per angle.
+
+build_angle_dataframe(angle_dir, label) returns a DataFrame with subject_id, emotion, angle, image_path, embedding. build_all_angle_embeddings(base_dir) generates parquet files for front/left/right and returns DataFrames. Requires model.hsem.get_embedding.
+"""
+
 import os
 import pandas as pd
 import numpy as np
-from hsem import get_embedding
+from model.hsem import get_embedding
 from tqdm import tqdm
 
 # ------------------------------

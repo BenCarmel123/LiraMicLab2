@@ -1,3 +1,8 @@
+"""Compatibility wrapper for HSEmotionRecognizer.
+
+Provides load_model() and get_embedding(image_path) which load the model on CPU and return facial-emotion embeddings. Applies timm compatibility shims and patches EfficientNet attributes; overrides torch.load for CPU-safe loading.
+"""
+
 import torch
 import cv2
 import sys

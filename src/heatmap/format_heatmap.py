@@ -1,3 +1,8 @@
+"""Heatmap utilities for emotion similarity matrices.
+
+Provides gamma boosting, plotting helpers, PNG export, and multi-page PDF export. Designed for similarity matrices (recommended range -1.0..1.0) with matching label lists.
+"""
+
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.backends.backend_pdf import PdfPages
